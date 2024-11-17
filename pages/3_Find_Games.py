@@ -16,17 +16,12 @@ def findGames():
         optionStr = ""
         for i in options:
             optionStr += f".{i.lower()}"
-        st.write(optionStr[1:])
         api = req.get(f"https://www.freetogame.com/api/filter?tag={optionStr[1:]}=pc").json()    
         gameList = []
         for i in api:
             gameList.append(i["title"])
 
         choice = st.selectbox("Which Game Do you like best",gameList,  index=None, placeholder="Select game of choice...", )
-        if choice != "":
-            st.write(f"You chose {choice}!")
-        else:
-            st.write(f"") 
         for i in api:
             if i["title"]==choice:
                 st.image(i["thumbnail"])
@@ -34,10 +29,6 @@ def findGames():
                 st.write(f"Game Description: {i['short_description']}") 
     if pref=="One Genre":
         option = st.selectbox('What Genre Are You Looking For?',("Mmorpg", "Shooter", "Strategy", "Moba", "Racing", "Sports", "Social", "Sandbox", "Open-world", "Survival", "Pvp", "Pve", "Pixel", "Voxel", "Zombie", "Turn-based", "First-person", "Third-Person", "Top-down", "Tank", "Space", "Sailing", "Side-scroller", "Superhero", "Permadeath", "Card", "Battle-royale", "Mmo", "Mmofps", "Mmotps", "3d", "2d", "Anime", "Fantasy", "Sci-fi", "Fighting", "Action-rpg", "Action", "Military", "Martial-arts", "Flight", "Low-spec", "Tower-defense", "Horror", "Mmorts"),index=None,placeholder="Select videogame category...",)
-        if option != "":
-            st.write(f"You chose {option}!")
-        else:
-            st.write(f"") 
         api = req.get(f"https://www.freetogame.com/api/games?category={option}").json()
         gameList = []
         for i in api:
@@ -53,5 +44,8 @@ def findGames():
                 st.image(i["thumbnail"])
                 st.write(f"Your game of choice is {i[ 'title']} ")
                 st.write(f"Game Description: {i['short_description']}")
-findGames()
-
+try:
+    findGames()
+except (TypeError, ValueError, IndexError) as e:
+    st.write("")
+    
