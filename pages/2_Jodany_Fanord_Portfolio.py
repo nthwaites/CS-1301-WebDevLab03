@@ -41,7 +41,7 @@ def education_section(education_data,course_data):
         hide_index=True,
     )
     st.write("---")
-education_section(info.education_data, info.course_data)
+education_section(info.education_data_1, info.course_data_1)
 
 #Professional Experience
 
