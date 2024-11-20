@@ -65,7 +65,7 @@ spoken_data = {
     "Spanish": "Fluent",
 }
 leadership_data = {
-    "GTSBE (Georgia Tech Society of Black Engineers)": (["- Member of the PCI Committee Chair"],"Images/puff.jpg"),
+    "GTSBE (Georgia Tech Society of Black Engineers)": ("- Member of the PCI Committee Chair","Images/puff.jpg"),
 
 }
 activity_data={
