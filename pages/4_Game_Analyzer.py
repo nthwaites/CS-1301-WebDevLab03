@@ -3,6 +3,7 @@ import requests as req
 import os
 import google.generativeai as genai
 
+
 st.title("Online-Game Analyzer")
 st.write("Welcome to our Online-Game Analyzer. Enter the name of the game you're interested in along with its corresponding genre, and get a brief background of the game and its developers. If you're still curious, ask questions related to the game and developer company using the text box below the description!")
 
