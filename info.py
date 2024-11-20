@@ -100,7 +100,7 @@ education_data_1 ={
 course_data_1 = {
     "code":["CS 1301", "ECE 1101", "MATH 1551", "PHYS 2211", "ENGL 1101"], 
     "names":["Intro to CS", "ECE Discovery Studio", "Differential Calculus", "Physics 1", "English Composition I"], 
-    "semester_taken":["1st", "1st", "1st", "1st", 1st],
+    "semester_taken":["1st", "1st", "1st", "1st", "1st"],
     "skills":["Python is not my favorite snake anymore","Steps towards building my professional persona", "Starting to enter my prime", "Problem Solving and Critical Thinking", "Developing beautiful prose one essay at a time"],
     }
 experience_data_1 = {
