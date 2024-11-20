@@ -75,7 +75,7 @@ activity_data={
             "- Sat under Patrick's rock"]
 }
 
-profile_picture_1 = "Images/profile_Fanord.jpeg"
+profile_picture_1 = "Images/jelly.jpeg"
 about_me_1 = "I'm Jodany Fanord. I'm a first year Electrical Engineering Major at Georgia Tech interested in Telecommunications and Signal Processing. "
 
 

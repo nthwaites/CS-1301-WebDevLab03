@@ -6,7 +6,7 @@ import pandas as pd
 
 def about_me_section():
     st.header("About Me🌀")
-    #st.image(info.profile_picture_1, width = 200)
+    st.image(info.profile_picture_1, width = 200)
     st.write(info.about_me_1)
     st.write("---")
 about_me_section()
