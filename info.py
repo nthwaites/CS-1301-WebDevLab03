@@ -133,8 +133,8 @@ spoken_icons_1 = {
 
 #CHANGE BELOW
 spoken_data_1 = {
-    "English": "Fluent",
-    "Spanish": "Intermediate",
+    "English": " Fluent",
+    "Spanish": " Intermediate",
 }
 leadership_data_1 = {
     "GTSBE LDR Fundraising Committee": (["- Collaborate with club members to plan events and fundraisers that will raise money for the on-campus club for Black Engineering Freshmen."],"Images/puff.jpg"),
