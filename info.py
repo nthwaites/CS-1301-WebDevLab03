@@ -12,16 +12,16 @@ github_image_url = "https://cdn-icons-png.flaticon.com/256/25/25231.png"
 email_image_url = "https://logowik.com/content/uploads/images/513_email.jpg"
 
 #CHANGE BELOW
-my_linkedin_url = "https://www.linkedin.com/in/spongebob-squarepants-44b857281/"
-my_github_url = "https://github.com/spongebob-squarepants"
-my_email_address = "spongebob@gmail.com"
+my_linkedin_url = "https://www.linkedin.com/in/nthwaites/"
+my_github_url = "https://github.com/nthwaites"
+my_email_address = "nthwaites3@gatech.edu"
 
 
 education_data ={
     'Degree': 'Bachelor of Science in Computer Science',
     'Institution': 'Georgia Institute of Technology',
     'Location': 'Atlanta, GA',
-    'Graduation Date': 'Never',
+    'Graduation Date': 'May 2028',
     'GPA': '4.0'
 }
 course_data = {
