@@ -1,5 +1,5 @@
 import streamlit as st
-import info
+import info_Fanord
 import pandas as pd
 
 #About Me
