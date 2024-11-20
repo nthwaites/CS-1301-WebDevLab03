@@ -25,7 +25,7 @@ def links_section():
     st.sidebar.markdown(email_html, unsafe_allow_html=True)
 links_section()
 #Education
-def education_section(education_data,course_data):
+def education_section(education_data_1,course_data_1):
     st.header("Education📖")
     st.subheader(f"**{education_data_1['Institution']}**")
     st.write(f"**Degree:**{education_data_1['Degree']}")
