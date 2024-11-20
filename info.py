@@ -75,7 +75,7 @@ activity_data={
             "- Sat under Patrick's rock"]
 }
 
-profile_picture_1 = "Images/profile_Fanord.jpeg"
+profile_picture_1 = "Images/profile_Fanord.jpg"
 about_me_1 = "I'm Jodany Fanord. I'm a first year Electrical Engineering Major at Georgia Tech interested in Telecommunications and Signal Processing. "
 
 
@@ -94,13 +94,13 @@ education_data_1 ={
     'Degree': 'Bachelor of Science in Electrical Engineering',
     'Institution': 'Georgia Institute of Technology',
     'Location': 'Atlanta, GA',
-    'Graduation Date': 'Never',
+    'Graduation Date': '2028',
     'GPA': '4.0'
 }
 course_data_1 = {
     "code":["CS 1301", "ECE 1101", "MATH 1551", "PHYS 2211", "ENGL 1101"], 
     "names":["Intro to CS", "ECE Discovery Studio", "Differential Calculus", "Physics 1", "English Composition I"], 
-    "semester_taken":["1st", "1st", "1st", "1st"],
+    "semester_taken":["1st", "1st", "1st", "1st", "1st"],
     "skills":["Python is not my favorite snake anymore","Steps towards building my professional persona", "Starting to enter my prime", "Problem Solving and Critical Thinking", "Developing beautiful prose one essay at a time"],
     }
 experience_data_1 = {
@@ -133,8 +133,8 @@ spoken_icons_1 = {
 
 #CHANGE BELOW
 spoken_data_1 = {
-    "English": "Fluent",
-    "Spanish": "Intermediate",
+    "English": " Fluent",
+    "Spanish": " Intermediate",
 }
 leadership_data_1 = {
     "GTSBE LDR Fundraising Committee": (["- Collaborate with club members to plan events and fundraisers that will raise money for the on-campus club for Black Engineering Freshmen."],"Images/puff.jpg"),
