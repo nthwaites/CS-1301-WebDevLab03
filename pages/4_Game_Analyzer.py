@@ -69,5 +69,5 @@ def generateWithAI():
         
 try:
     generateWithAI()
-except (KeyError, RuntimeError):
+except (KeyError, RuntimeError) as e:
     st.write("")
