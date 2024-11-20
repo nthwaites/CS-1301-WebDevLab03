@@ -94,7 +94,7 @@ education_data_1 ={
     'Degree': 'Bachelor of Science in Electrical Engineering',
     'Institution': 'Georgia Institute of Technology',
     'Location': 'Atlanta, GA',
-    'Graduation Date': 'Never',
+    'Graduation Date': '2028',
     'GPA': '4.0'
 }
 course_data_1 = {
