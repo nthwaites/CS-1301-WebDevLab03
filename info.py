@@ -25,28 +25,28 @@ education_data ={
     'GPA': '4.0'
 }
 course_data = {
-    "code":["CS 1301", "CS 1331", "MATH 1554", "CS 2050"], 
-    "names":["Intro to CS", "Intro to OOP", "Linear Algebra", "Discrete Mathematics"], 
-    "semester_taken":["2nd", "3rd", "2nd", "2nd"],
-    "skills":["Python is not my favorite snake anymore", "OOP(S!) (Java Edition)", "Basically row reduction", "If only my grade was discrete too..."],
+    "code":["CS 1301", "INTA 1200", "MATH 1551", "APPH 1050", "CS 1100", "ENGL 1101"], 
+    "names":["Intro to CS", "American Government", "Differential Calculus", "Sci of Phys Act & Health", "CS Seminar", "English Composition I"], 
+    "semester_taken":["1st", "1st", "1st", "1st", "1st", "1st"],
+    "skills":["Python is not my favorite snake anymore", "Government classes are cool!", "Math can be used anywhere", "Mental wellness is important", "There's so many resources for CS", "Reading books takes a long time"],
     }
 experience_data = {
-    "Cook at Krusty Krab": (["- Worked on designing the Krabby Patty Recipe",
-                                                                          "- Increased Company Revenue by 200 dollars", "- Made Mr. Krabs Proud"],"Images/cook.jpg"),
-    "Cleaner at Krusty Krab":(["- Made the floor almost reflective",
-                                                           "- Increased customer visits by three folds by making restaurant clean"],"Images/cleaner.jpg"),
-    "Jelly Fish Catcher":(["- Caught 100+ Jellyfish with the help of my colleague Patrick"],"Images/jelly.jpg")
+    "Microsoft Project Management Intern": (["- Worked on designing a product to meet customers needs and values",
+                                                                          "- Composed a project proposal document listing the plans to implement the product", "- Developed mock-ups of the product using FIGMA"],"Images/cook.jpg"),
+    "Arabia Mountain High School Business Department Intern":(["- Monitored classes in absence of instructor",
+                                                           "- Improved departments efficiency by repairing the copy machine"],"Images/cleaner.jpg")
 
 }
 
 projects_data = {
-    "Krabby Patty Recipe": "Created the famous Recipe and tailored it from scratch",
+    "Covid Data Website": "Created a website using HTML, CSS, and JS. Used a csv data file about Covid cases along with Python coding and pandas to visualize the data"
 }
 
 programming_data = {
     "Python": 90,
     "Java": 70,
-    "C": 40,
+    "JavaScript": 60,
+    "HTML": 85,
 }
 
 #CHANGE BELOW (OPTIONAL)
@@ -55,24 +55,22 @@ programming_icons = {
     "Java": "☕",
     "C": "🔍",
 }
-spoken_icons = {"French": "🇫🇷",
-    "English": "🇬🇧",
+spoken_icons = {"English": "🇬🇧",
     "Spanish":"🇪🇸"
 }
 
 #CHANGE BELOW
 spoken_data = {
     "English": "Fluent",
-    "French": "Fluent",
     "Spanish": "Fluent",
 }
 leadership_data = {
-    "Driver at Mrs Puff's School": (["- Elected Worst Student of the Century"],"Images/puff.jpg"),
+    "GTSBE (Georgia Tech Society of Black Engineers)": (["- Member of the PCI Committee Chair"],"Images/puff.jpg"),
 
 }
 activity_data={
-    "SpongeBob and Patrick Friendship Club": ["- Conviced Squidwards to have fun", 
-            "- Sat under Patrick's rock"]
+    "Taking Over Tech (with SWE, SHPE, and GTSBE)": ["- Educated High Schooler's on tech majors and what CS is to me", 
+            "- Answered questions related to Georgia Tech and admissions"]
 }
 
 profile_picture_1 = "Images/profile_Fanord.jpg"
