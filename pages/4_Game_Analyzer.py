@@ -30,8 +30,8 @@ def generateWithAI():
 
     
 
-
-    genai.configure(api_key="AIzaSyBYl2oQsHQ4eFWV0mhhd0IV9EsHB3amjJk")
+    key = st.secrets["key"]
+    genai.configure(api_key=key)
 
     model = genai.GenerativeModel("gemini-1.5-flash") #this is the free model of google gemini
     response = model.generate_content(f'Give a brief intro paragraph explaining this game genre: {genre}. In the next paragraph give a brief description of the game {title}, starting with the release date ({releaseDate}) utlizing parts from this description: ({description}), and other info you find. In the next paragraph give a brief description about the publisher company: {publisher} and developer company: {developer}. In the final paragraph give a small list of beginner tips for beginners when playing {title}.') #enter your prompt here!
