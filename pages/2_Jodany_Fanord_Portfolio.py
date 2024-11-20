@@ -39,7 +39,7 @@ def education_section(education_data_1,course_data_1):
         "semester_taken": "Semester Taken",
         "skills": "What I Learned"},
         hide_index=True,
-    )
+     )
     st.write("---")
 education_section(info.education_data_1, info.course_data_1)
 
