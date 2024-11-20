@@ -4,7 +4,6 @@ import requests as req
 
 #User enters genre, output game options
 
-
 def findGames():
     st.title("Want To Play A New Free Game? Find One Today!🎮")
    # image_filename = os.path.join("FreeGamesImages/"+name.lower() + ".jpg")
