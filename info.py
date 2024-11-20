@@ -2,7 +2,7 @@
 #This File will contain the information to be displayed in your portfolio
 
 #CHANGE BELOW
-profile_picture = "Images/picOfNate.jpeg"
+profile_picture = "Images/picOfNate.jpg"
 about_me = "I'm Nathan Thwaites. An aspiring software engineer and problem solver, who's a first-year at Georgia Tech "
 
 
