@@ -20,7 +20,7 @@ def findGames():
         for i in api:
             gameList.append(i["title"])
 
-        choice = st.selectbox("Which game do you like best"🛡️,gameList,  index=None, placeholder="Select game of choice...", )
+        choice = st.selectbox("Which game do you like best🛡️",gameList,  index=None, placeholder="Select game of choice...", )
         for i in api:
             if i["title"]==choice:
                 st.image(i["thumbnail"])
